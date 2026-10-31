@@ -1,0 +1,66 @@
+:root {
+  /* Fundo e superfícies */
+  --bg: #07090f;
+  --bg-2: #0c1120;
+  --surface: #121626;
+  --surface-2: #191e33;
+  --media: #262b46;
+  --border: #272d45;
+  --border-strong: #3a4263;
+
+  /* Texto */
+  --text: #eef0f6;
+  --muted: #b0b6ca;
+  --subtle: #8a91a8;
+
+  /* Cor de destaque única */
+  --accent: #34d399;
+  --accent-hover: #6ee7b7;
+  --accent-ink: #04231a;
+  --accent-soft: rgba(52, 211, 153, 0.12);
+
+  --danger: #f87171;
+
+  /* Tipografia */
+  --font-display: "Urbanist", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --fs-hero: clamp(2.6rem, 6vw, 4.5rem);
+  --fs-h2: clamp(1.8rem, 3.2vw, 2.5rem);
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-xs: 0.75rem;
+
+  /* Layout */
+  --container: 1120px;
+  --gutter: clamp(1.25rem, 4vw, 2rem);
+  --section-y: 60px;
+  --header-h: 68px;
+  --radius: 18px;
+  --radius-sm: 10px;
+  --radius-pill: 999px;
+
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (min-width: 1600px) {
+  :root {
+    --container: 1280px;
+    --header-h: 76px;
+  }
+  html {
+    font-size: 106.25%;
+  }
+}
+
+@media (min-width: 2200px) {
+  :root {
+    --container: 1480px;
+    --header-h: 84px;
+  }
+  html {
+    font-size: 118.75%;
+  }
+}
