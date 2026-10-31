@@ -7,6 +7,7 @@ import ProjectsSection from "@/components/projects/ProjectsSection.vue";
 import AboutSection from "@/components/about/AboutSection.vue";
 import ExperienceSection from "@/components/experience/ExperienceSection.vue";
 import ContactSection from "@/components/contact/ContactSection.vue";
+import AppFooter from "@/components/layout/AppFooter.vue";
 
 const { t } = useI18n();
 </script>
@@ -24,4 +25,6 @@ const { t } = useI18n();
     <ExperienceSection />
     <ContactSection />
   </main>
+
+  <AppFooter />
 </template>
