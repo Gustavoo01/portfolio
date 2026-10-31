@@ -3,6 +3,7 @@ import { useI18n } from "@/i18n";
 import AppHeader from "@/components/layout/AppHeader.vue";
 import StarField from "@/components/hero/StarField.vue";
 import HeroSection from "@/components/hero/HeroSection.vue";
+import ProjectsSection from "@/components/projects/ProjectsSection.vue";
 
 const { t } = useI18n();
 </script>
@@ -15,5 +16,6 @@ const { t } = useI18n();
 
   <main id="main">
     <HeroSection />
+    <ProjectsSection />
   </main>
 </template>
