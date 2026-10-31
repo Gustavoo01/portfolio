@@ -1,0 +1,87 @@
+export default {
+  meta: {
+    title: "Gustavo de Souza · Full-stack & Mobile Developer",
+  },
+  nav: {
+    projects: "Proyectos",
+    about: "Sobre mí",
+    experience: "Experiencia",
+    contact: "Contacto",
+  },
+  hero: {
+    role: "Full-stack & Mobile Developer",
+    tagline:
+      "Desarrollo sistemas web, APIs y apps Android del backend a la interfaz, con arquitectura sólida, buen rendimiento y foco en quien los usa.",
+    ctaProjects: "Ver proyectos",
+    ctaCv: "Descargar CV",
+    available: "Disponible para freelance y nuevas oportunidades",
+    skills: [
+      "Sistemas web",
+      "APIs RESTful",
+      "Paneles administrativos",
+      "Apps Android",
+    ],
+  },
+  projects: {
+    title: "Proyectos",
+    subtitle:
+      "Una selección de lo que he construido: el problema, la solución y el stack.",
+    showMore: "Ver más proyectos",
+    count: "Mostrando {shown} de {total}",
+    showLess: "Ver menos",
+    demo: "Demo",
+    code: "Código",
+    noImage: "Imagen del proyecto próximamente",
+  },
+  about: {
+    title: "Sobre mí",
+    subtitle: "Quién soy y con qué trabajo.",
+    stackTitle: "Lenguajes y herramientas",
+    groups: {
+      languages: "Lenguajes",
+      backend: "Backend",
+      frontend: "Frontend",
+      mobile: "Mobile",
+      database: "Base de datos",
+      tools: "Herramientas",
+    },
+  },
+  experience: {
+    title: "Experiencia & Formación",
+    subtitle: "Dónde he trabajado y qué estoy estudiando.",
+    work: "Experiencia",
+    education: "Formación",
+    levels: { grad: "Grado", pos: "Posgrado" },
+    status: { ongoing: "En curso", done: "Concluido" },
+  },
+  contact: {
+    title: "Contacto",
+    subtitle: "¿Tienes un proyecto o una vacante? Envíame un mensaje.",
+    name: "Nombre",
+    email: "E-mail",
+    message: "Mensaje",
+    namePh: "Tu nombre",
+    emailPh: "tu@email.com",
+    messagePh: "Cuéntame un poco sobre el proyecto o la vacante",
+    send: "Enviar mensaje",
+    sending: "Enviando…",
+    success: "¡Mensaje enviado! Te respondo pronto.",
+    error: "No se pudo enviar. Intenta por uno de los canales al lado.",
+    direct: "O háblame directo",
+    errors: {
+      required: "Campo obligatorio",
+      email: "Introduce un e-mail válido",
+      min: "Escribe al menos 10 caracteres",
+    },
+  },
+  footer: {
+    rights: "Todos los derechos reservados.",
+  },
+  a11y: {
+    skip: "Saltar al contenido",
+    openMenu: "Abrir menú",
+    closeMenu: "Cerrar menú",
+    language: "Idioma",
+    home: "Inicio",
+  },
+};

@@ -1,0 +1,82 @@
+export default {
+  meta: {
+    title: "Gustavo de Souza · Full-stack & Mobile Developer",
+  },
+  nav: {
+    projects: "Projects",
+    about: "About",
+    experience: "Experience",
+    contact: "Contact",
+  },
+  hero: {
+    role: "Full-stack & Mobile Developer",
+    tagline:
+      "I build web systems, APIs and Android apps from backend to interface, with solid architecture, good performance and a focus on the people who use them.",
+    ctaProjects: "See projects",
+    ctaCv: "Download CV",
+    available: "Available for freelance and new opportunities",
+    skills: ["Web systems", "RESTful APIs", "Admin dashboards", "Android apps"],
+  },
+  projects: {
+    title: "Projects",
+    subtitle:
+      "A selection of what I've built: the problem, the solution and the stack.",
+    showMore: "See more projects",
+    count: "Showing {shown} of {total}",
+    showLess: "Show less",
+    demo: "Demo",
+    code: "Code",
+    noImage: "Project image coming soon",
+  },
+  about: {
+    title: "About me",
+    subtitle: "Who I am and what I work with.",
+    stackTitle: "Languages and tools",
+    groups: {
+      languages: "Languages",
+      backend: "Backend",
+      frontend: "Frontend",
+      mobile: "Mobile",
+      database: "Database",
+      tools: "Tools",
+    },
+  },
+  experience: {
+    title: "Experience & Education",
+    subtitle: "Where I've worked and what I'm studying.",
+    work: "Experience",
+    education: "Education",
+    levels: { grad: "Bachelor's", pos: "Postgraduate" },
+    status: { ongoing: "In progress", done: "Completed" },
+  },
+  contact: {
+    title: "Contact",
+    subtitle: "Got a project or a role? Send me a message.",
+    name: "Name",
+    email: "E-mail",
+    message: "Message",
+    namePh: "Your name",
+    emailPh: "you@email.com",
+    messagePh: "Tell me a bit about the project or the role",
+    send: "Send message",
+    sending: "Sending…",
+    success: "Message sent! I'll get back to you soon.",
+    error: "Couldn't send it. Please try one of the channels alongside.",
+    direct: "Or reach me directly",
+    errors: {
+      required: "Required field",
+      email: "Enter a valid e-mail",
+      min: "Write at least 10 characters",
+    },
+  },
+  footer: {
+    rights: "All rights reserved.",
+  },
+  a11y: {
+    skip: "Skip to content",
+    openMenu: "Open menu",
+    closeMenu: "Close menu",
+    language: "Language",
+    home: "Home",
+  },
+};

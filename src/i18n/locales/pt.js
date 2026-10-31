@@ -1,0 +1,87 @@
+export default {
+  meta: {
+    title: "Gustavo de Souza · Full-stack & Mobile Developer",
+  },
+  nav: {
+    projects: "Projetos",
+    about: "Sobre",
+    experience: "Experiência",
+    contact: "Contato",
+  },
+  hero: {
+    role: "Full-stack & Mobile Developer",
+    tagline:
+      "Desenvolvo sistemas web, APIs e apps Android do backend à interface, com arquitetura sólida, boa performance e foco em quem vai usar.",
+    ctaProjects: "Ver projetos",
+    ctaCv: "Baixar CV",
+    available: "Disponível para freelance e novas oportunidades",
+    skills: [
+      "Sistemas web",
+      "APIs RESTful",
+      "Painéis administrativos",
+      "Apps Android",
+    ],
+  },
+  projects: {
+    title: "Projetos",
+    subtitle:
+      "Uma seleção do que já construí: o problema, a solução e a stack.",
+    showMore: "Ver mais projetos",
+    count: "Mostrando {shown} de {total}",
+    showLess: "Ver menos",
+    demo: "Demo",
+    code: "Código",
+    noImage: "Imagem do projeto em breve",
+  },
+  about: {
+    title: "Sobre mim",
+    subtitle: "Quem sou e com o que trabalho.",
+    stackTitle: "Linguagens e ferramentas",
+    groups: {
+      languages: "Linguagens",
+      backend: "Backend",
+      frontend: "Frontend",
+      mobile: "Mobile",
+      database: "Banco de dados",
+      tools: "Ferramentas",
+    },
+  },
+  experience: {
+    title: "Experiência & Formação",
+    subtitle: "Onde trabalhei e o que estou estudando.",
+    work: "Experiência",
+    education: "Formação",
+    levels: { grad: "Graduação", pos: "Pós-graduação" },
+    status: { ongoing: "Em andamento", done: "Concluído" },
+  },
+  contact: {
+    title: "Contato",
+    subtitle: "Tem um projeto ou uma vaga? Me mande uma mensagem.",
+    name: "Nome",
+    email: "E-mail",
+    message: "Mensagem",
+    namePh: "Seu nome",
+    emailPh: "voce@email.com",
+    messagePh: "Conte um pouco sobre o projeto ou a vaga",
+    send: "Enviar mensagem",
+    sending: "Enviando…",
+    success: "Mensagem enviada! Respondo em breve.",
+    error: "Não foi possível enviar. Tente por um dos canais ao lado.",
+    direct: "Ou fale direto",
+    errors: {
+      required: "Campo obrigatório",
+      email: "Informe um e-mail válido",
+      min: "Escreva pelo menos 10 caracteres",
+    },
+  },
+  footer: {
+    rights: "Todos os direitos reservados.",
+  },
+  a11y: {
+    skip: "Pular para o conteúdo",
+    openMenu: "Abrir menu",
+    closeMenu: "Fechar menu",
+    language: "Idioma",
+    home: "Início",
+  },
+};
