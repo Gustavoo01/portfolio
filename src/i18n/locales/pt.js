@@ -11,15 +11,15 @@ export default {
   hero: {
     role: "Full-stack & Mobile Developer",
     tagline:
-      "Desenvolvo sistemas web, APIs e apps Android do backend à interface, com arquitetura sólida, boa performance e foco em quem vai usar.",
+      "Mais de cinco anos construindo sistemas web e apps Android para o setor público, do backend à interface: APIs, painéis de gestão e aplicativos usados em campo.",
     ctaProjects: "Ver projetos",
     ctaCv: "Baixar CV",
     available: "Disponível para freelance e novas oportunidades",
     skills: [
-      "Sistemas web",
-      "APIs RESTful",
-      "Painéis administrativos",
-      "Apps Android",
+      "Laravel",
+      "Vue.js",
+      "Angular",
+      "Android",
     ],
   },
   projects: {
@@ -44,6 +44,7 @@ export default {
       mobile: "Mobile",
       database: "Banco de dados",
       tools: "Ferramentas",
+      learning: "Estudando agora",
     },
   },
   experience: {

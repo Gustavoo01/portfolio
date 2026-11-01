@@ -37,14 +37,9 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: var(--font-display);
-  line-height: 1.15;
+h1, h2, h3, h4 {
   font-weight: 600;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
 p {
@@ -121,4 +116,39 @@ section[id] {
 
 .skip-link:focus {
   top: 1rem;
+}
+
+.section {
+  position: relative;
+}
+
+:is(.hero, .section) + .section::before,
+:is(.hero, .section) + .section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  pointer-events: none;
+}
+
+:is(.hero, .section) + .section::before {
+  width: min(var(--container), calc(100% - var(--gutter) * 2));
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--border-strong) 25%,
+    var(--border-strong) 75%,
+    transparent
+  );
+}
+
+:is(.hero, .section) + .section::after {
+  width: 7px;
+  height: 7px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border: 1px solid var(--accent);
+  background: var(--bg);
+  box-shadow: 0 0 12px rgba(52, 211, 153, 0.35);
 }

@@ -11,11 +11,11 @@ export default {
   hero: {
     role: "Full-stack & Mobile Developer",
     tagline:
-      "I build web systems, APIs and Android apps from backend to interface, with solid architecture, good performance and a focus on the people who use them.",
+      "Over five years building web systems and Android apps for the public sector, from backend to interface: APIs, management dashboards and apps used in the field.",
     ctaProjects: "See projects",
     ctaCv: "Download CV",
     available: "Available for freelance and new opportunities",
-    skills: ["Web systems", "RESTful APIs", "Admin dashboards", "Android apps"],
+    skills: ["Laravel", "Vue.js", "Angular", "Android"],
   },
   projects: {
     title: "Projects",
@@ -39,6 +39,7 @@ export default {
       mobile: "Mobile",
       database: "Database",
       tools: "Tools",
+      learning: "Currently learning",
     },
   },
   experience: {

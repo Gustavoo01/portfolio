@@ -12,17 +12,4 @@ export const projects = [
     },
     links: { demo: "#", code: "#" },
   },
-  {
-    id: "projeto-2",
-    title: "Compressor de vídeos",
-    image: null,
-    tags: ["Java", "FFmpeg"],
-    featured: true,
-    description: {
-      pt: "App desktop multiplataforma com fila e níveis de compressão, usando FFmpeg por baixo.",
-      en: "Cross-platform desktop app with a queue and compression levels, powered by FFmpeg.",
-      es: "App de escritorio multiplataforma con cola y niveles de compresión, usando FFmpeg.",
-    },
-    links: { demo: "", code: "#" },
-  },
 ];

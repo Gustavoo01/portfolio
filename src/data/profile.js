@@ -24,9 +24,9 @@ export const socials = [
     id: "linkedin",
     label: "LinkedIn",
     icon: "linkedin",
-    href: "https://www.linkedin.com",
+    href: "https://www.linkedin.com/in/gustavo-souza-72a21677/",
   },
-  { id: "github", label: "GitHub", icon: "github", href: "https://github.com" },
+  { id: "github", label: "GitHub", icon: "github", href: "https://github.com/Gustavoo01" },
   { id: "email", label: "E-mail", icon: "mail", href: "" },
   { id: "whatsapp", label: "WhatsApp", icon: "whatsapp", href: "" },
 ];
