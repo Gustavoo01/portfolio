@@ -5,8 +5,8 @@ export default {
   nav: {
     projects: "Projects",
     about: "About",
-    experience: "Experience",
     contact: "Contact",
+    experience: "Career",
   },
   hero: {
     role: "Full-stack & Mobile Developer",
@@ -42,12 +42,17 @@ export default {
     },
   },
   experience: {
-    title: "Experience & Education",
-    subtitle: "Where I've worked and what I'm studying.",
+    title: "Career",
+    subtitle: "Work and study, side by side, since {since}.",
     work: "Experience",
     education: "Education",
     levels: { grad: "Bachelor's", pos: "Postgraduate" },
     status: { ongoing: "In progress", done: "Completed" },
+    present: "present",
+    current: "Current role",
+    year: "{n} year",
+    years: "{n} years",
+    today: "today",
   },
   contact: {
     title: "Contact",

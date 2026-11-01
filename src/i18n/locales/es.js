@@ -5,7 +5,7 @@ export default {
   nav: {
     projects: "Proyectos",
     about: "Sobre mí",
-    experience: "Experiencia",
+    experience: "Trayectoria",
     contact: "Contacto",
   },
   hero: {
@@ -47,12 +47,17 @@ export default {
     },
   },
   experience: {
-    title: "Experiencia & Formación",
-    subtitle: "Dónde he trabajado y qué estoy estudiando.",
+    title: "Trayectoria",
+    subtitle: "Trabajo y estudio, lado a lado, desde {since}.",
     work: "Experiencia",
     education: "Formación",
     levels: { grad: "Grado", pos: "Posgrado" },
     status: { ongoing: "En curso", done: "Concluido" },
+    present: "actual",
+    current: "Trabajo actual",
+    year: "{n} año",
+    years: "{n} años",
+    today: "hoy",
   },
   contact: {
     title: "Contacto",
