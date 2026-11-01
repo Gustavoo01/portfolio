@@ -14,7 +14,6 @@ const { t } = useI18n();
 
 <template>
   <a class="skip-link" href="#main">{{ t("a11y.skip") }}</a>
-
   <StarField />
   <AppHeader />
 
