@@ -1,13 +1,8 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 
-import "@fontsource/urbanist/latin-400.css";
-import "@fontsource/urbanist/latin-500.css";
-import "@fontsource/urbanist/latin-600.css";
-import "@fontsource/urbanist/latin-700.css";
-import "@fontsource/inter/latin-400.css";
-import "@fontsource/inter/latin-500.css";
-import "@fontsource/inter/latin-600.css";
+import "@fontsource-variable/inter-tight";
+import "@fontsource-variable/inter";
 
 import "./styles/variables.css";
 import "./styles/base.css";
