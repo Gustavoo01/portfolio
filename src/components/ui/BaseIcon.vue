@@ -70,25 +70,26 @@ const icons = {
       "M8.5 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z",
     ],
   },
+  briefcase: {
+    viewBox: "0 0 24 24",
+    paths: [
+      "M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z",
+      "M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16",
+    ],
+  },
+  graduation: {
+    viewBox: "0 0 24 24",
+    paths: ["M2 10l10-5 10 5-10 5z", "M6 12v5c3 3 9 3 12 0v-5", "M22 10v6"],
+  },
 };
 
 const icon = computed(() => icons[props.name]);
 </script>
 
 <template>
-  <svg
-    v-if="icon"
-    :width="size"
-    :height="size"
-    :viewBox="icon.viewBox"
-    :fill="icon.fill ? 'currentColor' : 'none'"
-    :stroke="icon.fill ? 'none' : 'currentColor'"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    aria-hidden="true"
-    focusable="false"
-  >
+  <svg v-if="icon" :width="size" :height="size" :viewBox="icon.viewBox" :fill="icon.fill ? 'currentColor' : 'none'"
+    :stroke="icon.fill ? 'none' : 'currentColor'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    aria-hidden="true" focusable="false">
     <path v-for="(d, i) in icon.paths" :key="i" :d="d" />
   </svg>
 </template>

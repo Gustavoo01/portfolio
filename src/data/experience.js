@@ -16,16 +16,19 @@ export const work = [
     },
     highlights: {
       pt: [
-        "Desenvolvo sistemas que precisam funcionar todo dia, para gente que não pode esperar o sistema voltar. Gosto de cuidar do projeto inteiro: conversar com quem vai usar, desenhar a API, construir o painel e acompanhar o app até ele chegar em campo.",
-        "Sou formado em Análise e Desenvolvimento de Sistemas e pós-graduado em Engenharia de Software para Desenvolvimento Mobile. Agora estou indo em direção a dados: curso Engenharia de Dados e uma pós em Ciência de Dados e IA, e estou aprendendo Python e Go.",
+        "Responsável por uma plataforma de vigilância em saúde: API em Laravel, painel web em Angular e app Android usado por agentes em campo.",
+        "Desenvolvimento de portais municipais e módulos de sistemas ERP para o setor público.",
+        "Atendimento direto a clientes e diretoria, do levantamento de requisitos à entrega.",
       ],
       en: [
-        "I build systems that have to work every day, for people who can't wait for them to come back online. I like owning the whole project: talking to the people who will use it, designing the API, building the dashboard and following the app all the way into the field.",
-        "I hold a degree in Systems Analysis and Development and a postgraduate degree in Software Engineering for Mobile Development. Now I'm moving into data: I'm studying Data Engineering and a postgraduate program in Data Science and AI, and learning Python and Go.",
+        "Responsible for a health surveillance platform: Laravel API, Angular web dashboard and an Android app used by field agents.",
+        "Development of municipal portals and ERP modules for the public sector.",
+        "Work directly with clients and leadership, from gathering requirements to delivery.",
       ],
       es: [
-        "Desarrollo sistemas que tienen que funcionar todos los días, para personas que no pueden esperar a que vuelvan. Me gusta encargarme del proyecto completo: hablar con quien lo va a usar, diseñar la API, construir el panel y acompañar la app hasta que llega a campo.",
-        "Soy graduado en Análisis y Desarrollo de Sistemas y tengo un posgrado en Ingeniería de Software para Desarrollo Mobile. Ahora voy hacia el área de datos: curso Ingeniería de Datos y un posgrado en Ciencia de Datos e IA, y estoy aprendiendo Python y Go.",
+        "Responsable de una plataforma de vigilancia en salud: API en Laravel, panel web en Angular y app Android usada por agentes en campo.",
+        "Desarrollo de portales municipales y módulos de sistemas ERP para el sector público.",
+        "Trato directo con clientes y dirección, desde el relevamiento de requisitos hasta la entrega.",
       ],
     },
     tags: ["Laravel", "PHP", "Angular", "Vue.js", "Android (Java)", "MySQL"],
