@@ -2,7 +2,7 @@ export const projects = [
   {
     id: "jethrolinks",
     title: "JethroLinks",
-    image: null,
+    image: "projects/jethrolinks.jpg",
     tags: ["Laravel", "Vue", "Docker"],
     featured: true,
     description: {
@@ -10,6 +10,9 @@ export const projects = [
       en: "Link shortener and aggregator with a metrics dashboard. I built the API, the Vue dashboard and the Docker deploy.",
       es: "Acortador y agregador de enlaces con panel de métricas. Hice la API, el panel en Vue y el deploy con Docker.",
     },
-    links: { demo: "#", code: "#" },
+    links: {
+      demo: "https://github.com/Gustavoo01/JethroLinks",
+      code: "https://github.com/Gustavoo01/JethroLinks",
+    },
   },
 ];

@@ -15,12 +15,7 @@ export default {
     ctaProjects: "Ver projetos",
     ctaCv: "Baixar CV",
     available: "Disponível para freelance e novas oportunidades",
-    skills: [
-      "Laravel",
-      "Vue.js",
-      "Angular",
-      "Android",
-    ],
+    skills: ["Laravel", "Vue.js", "Angular", "Android"],
   },
   projects: {
     title: "Projetos",

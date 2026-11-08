@@ -10,7 +10,8 @@ export default {
   },
   hero: {
     role: "Full-stack & Mobile Developer",
-    tagline: "Más de cinco años construyendo sistemas web y apps Android para el sector público, del backend a la interfaz: APIs, paneles de gestión y aplicaciones usadas en campo.",
+    tagline:
+      "Más de cinco años construyendo sistemas web y apps Android para el sector público, del backend a la interfaz: APIs, paneles de gestión y aplicaciones usadas en campo.",
     ctaProjects: "Ver proyectos",
     ctaCv: "Descargar CV",
     available: "Disponible para freelance y nuevas oportunidades",

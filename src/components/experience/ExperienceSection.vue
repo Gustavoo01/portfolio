@@ -12,7 +12,7 @@ const now = new Date();
 const thisYear = now.getFullYear();
 const yearStart = new Date(thisYear, 0, 1);
 const yearEnd = new Date(thisYear + 1, 0, 1);
-const today = thisYear + (now - yearStart) / (yearEnd - yearStart)
+const today = thisYear + (now - yearStart) / (yearEnd - yearStart);
 
 const all = [...work, ...education];
 const firstYear = Math.min(...all.map((i) => i.start));

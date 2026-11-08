@@ -87,9 +87,19 @@ const icon = computed(() => icons[props.name]);
 </script>
 
 <template>
-  <svg v-if="icon" :width="size" :height="size" :viewBox="icon.viewBox" :fill="icon.fill ? 'currentColor' : 'none'"
-    :stroke="icon.fill ? 'none' : 'currentColor'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-    aria-hidden="true" focusable="false">
+  <svg
+    v-if="icon"
+    :width="size"
+    :height="size"
+    :viewBox="icon.viewBox"
+    :fill="icon.fill ? 'currentColor' : 'none'"
+    :stroke="icon.fill ? 'none' : 'currentColor'"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+    focusable="false"
+  >
     <path v-for="(d, i) in icon.paths" :key="i" :d="d" />
   </svg>
 </template>
